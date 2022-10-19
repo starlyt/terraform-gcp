@@ -1,1 +1,41 @@
+# Variable files
+terraform.tfvars
+*.tfvars
+
+
+# Compiled files
+*.tfstate
+*.tfstate.backup
+
+# Go vendor directory
+vendor/
+
+# Module directory
 .terraform/
+
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+
+# auto-generated tag files
+tags
+
+# IDE configs
+.idea
+.vscode
+
+
+# terraform output files
+out.terraform
+*.out.terraform
+*.out
+*.terraform.out
+
+# Ruby download package lock file
+Gemfile.lock

@@ -11,3 +11,7 @@ variable "app_location" {
 variable "duration" {
     default = "STANDARD"
 }
+
+variable "docs" {
+    default = "image-store"
+}
